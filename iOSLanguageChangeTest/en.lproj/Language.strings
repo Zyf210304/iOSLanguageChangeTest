@@ -1,0 +1,15 @@
+/* 
+  Language.strings
+  iOSLanguageChangeTest
+
+  Created by 张亚飞 on 2023/8/2.
+  
+*/
+
+"登录" = "Log In";
+
+"中文" = "Chinses";
+
+"英文" = "English";
+
+"测试" = "Test";

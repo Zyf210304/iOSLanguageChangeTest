@@ -14,6 +14,8 @@
 		023C0EC12A79EC56007CADC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 023C0EC02A79EC56007CADC9 /* Assets.xcassets */; };
 		023C0EC42A79EC56007CADC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 023C0EC22A79EC56007CADC9 /* LaunchScreen.storyboard */; };
 		023C0EC72A79EC56007CADC9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 023C0EC62A79EC56007CADC9 /* main.m */; };
+		023C0ED12A79EDA8007CADC9 /* Language.strings in Resources */ = {isa = PBXBuildFile; fileRef = 023C0ED32A79EDA8007CADC9 /* Language.strings */; };
+		023C0ED82A79F58F007CADC9 /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 023C0ED72A79F58F007CADC9 /* TwoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,13 @@
 		023C0EC32A79EC56007CADC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		023C0EC52A79EC56007CADC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		023C0EC62A79EC56007CADC9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		023C0ECD2A79ED38007CADC9 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		023C0ECE2A79ED38007CADC9 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		023C0ED22A79EDA8007CADC9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Language.strings; sourceTree = "<group>"; };
+		023C0ED42A79EDAA007CADC9 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Language.strings"; sourceTree = "<group>"; };
+		023C0ED52A79EE6C007CADC9 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		023C0ED62A79F58F007CADC9 /* TwoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		023C0ED72A79F58F007CADC9 /* TwoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,10 +72,14 @@
 			children = (
 				023C0EB42A79EC55007CADC9 /* AppDelegate.h */,
 				023C0EB52A79EC55007CADC9 /* AppDelegate.m */,
+				023C0ED52A79EE6C007CADC9 /* PrefixHeader.pch */,
+				023C0ED32A79EDA8007CADC9 /* Language.strings */,
 				023C0EB72A79EC55007CADC9 /* SceneDelegate.h */,
 				023C0EB82A79EC55007CADC9 /* SceneDelegate.m */,
 				023C0EBA2A79EC55007CADC9 /* ViewController.h */,
 				023C0EBB2A79EC55007CADC9 /* ViewController.m */,
+				023C0ED62A79F58F007CADC9 /* TwoViewController.h */,
+				023C0ED72A79F58F007CADC9 /* TwoViewController.m */,
 				023C0EBD2A79EC55007CADC9 /* Main.storyboard */,
 				023C0EC02A79EC56007CADC9 /* Assets.xcassets */,
 				023C0EC22A79EC56007CADC9 /* LaunchScreen.storyboard */,
@@ -117,6 +130,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 023C0EA82A79EC55007CADC9;
 			productRefGroup = 023C0EB22A79EC55007CADC9 /* Products */;
@@ -133,6 +147,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				023C0ED12A79EDA8007CADC9 /* Language.strings in Resources */,
 				023C0EC42A79EC56007CADC9 /* LaunchScreen.storyboard in Resources */,
 				023C0EC12A79EC56007CADC9 /* Assets.xcassets in Resources */,
 				023C0EBF2A79EC55007CADC9 /* Main.storyboard in Resources */,
@@ -149,6 +164,7 @@
 				023C0EBC2A79EC55007CADC9 /* ViewController.m in Sources */,
 				023C0EB62A79EC55007CADC9 /* AppDelegate.m in Sources */,
 				023C0EC72A79EC56007CADC9 /* main.m in Sources */,
+				023C0ED82A79F58F007CADC9 /* TwoViewController.m in Sources */,
 				023C0EB92A79EC55007CADC9 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -160,6 +176,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				023C0EBE2A79EC55007CADC9 /* Base */,
+				023C0ECD2A79ED38007CADC9 /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -168,8 +185,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				023C0EC32A79EC56007CADC9 /* Base */,
+				023C0ECE2A79ED38007CADC9 /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		023C0ED32A79EDA8007CADC9 /* Language.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				023C0ED22A79EDA8007CADC9 /* en */,
+				023C0ED42A79EDAA007CADC9 /* zh-Hans */,
+			);
+			name = Language.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -179,6 +206,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -237,6 +265,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -293,6 +322,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = U33ANMXXTW;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/iOSLanguageChangeTest/PrefixHeader.pch";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = iOSLanguageChangeTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -320,6 +350,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = U33ANMXXTW;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/iOSLanguageChangeTest/PrefixHeader.pch";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = iOSLanguageChangeTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
